@@ -13,9 +13,9 @@ namespace Lotus.Client.Data
             _dataContext = dataContext; 
         }
 
-        public List<KeyStringModel> Load()
+        public List<MessageBlock> Load()
         {
-            return _dataContext.keyStringModelList;
+            return _dataContext.MessageBlockList;
         }
 
         public void Add(string value)

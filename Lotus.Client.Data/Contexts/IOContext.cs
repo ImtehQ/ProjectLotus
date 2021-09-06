@@ -7,6 +7,6 @@ namespace Lotus.Client.Data.Contexts
 {
     public class IOContext
     {
-        public List<KeyStringModel> keyStringModelList; //.Data layer model
+        public List<MessageBlock> MessageBlockList; //.Data layer model
     }
 }

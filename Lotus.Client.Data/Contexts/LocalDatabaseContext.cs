@@ -5,6 +5,6 @@ namespace Lotus.Client.Data
 {
     public class LocalDatabaseContext : DataContext
     {
-        public List<KeyStringModel> keyStringModelList; //.Data layer model
+        public List<MessageBlock> MessageBlockList; //.Data layer model
     }
 }

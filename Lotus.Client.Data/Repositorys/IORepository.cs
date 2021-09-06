@@ -17,9 +17,9 @@ namespace Lotus.Client.Data
             _dataContext = dataContext;
         }
 
-        public List<KeyStringModel> Load()
+        public List<MessageBlock> Load()
         {
-            return _dataContext.keyStringModelList;
+            return _dataContext.MessageBlockList;
         }
 
         public void Add(string value)
@@ -34,6 +34,11 @@ namespace Lotus.Client.Data
 
 
         public void Find(string value)
+        {
+            throw new NotImplementedException();
+        }
+
+        List<string> IIORepository.Load()
         {
             throw new NotImplementedException();
         }

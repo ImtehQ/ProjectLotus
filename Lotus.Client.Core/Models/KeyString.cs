@@ -6,13 +6,13 @@ namespace Lotus.Client.Core.Models
 {
     public class KeyString
     {
+        public int value;
         public string word;
-        public Key key;
 
         public KeyString(string value, int keyValue)
         {
             word = value;
-            key = new Key(keyValue);
+            this.value = keyValue;
         }
     }
 }

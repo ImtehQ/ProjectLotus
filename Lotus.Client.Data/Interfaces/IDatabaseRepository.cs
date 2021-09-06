@@ -8,6 +8,6 @@ namespace Lotus.Client.Data
         void Add(string value);
         bool Exist(string value);
         void Find(string value);
-        List<KeyStringModel> Load();
+        List<MessageBlock> Load();
     }
 }
